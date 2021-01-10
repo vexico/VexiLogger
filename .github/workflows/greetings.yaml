@@ -8,6 +8,6 @@ jobs:
     steps:
     - uses: actions/first-interaction@v1
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.GH_BOT_TOKEN }}
         issue-message: '### 🎉 You just made your first issue! Thank you and hopefully we can fix your problem'
         pr-message: '### 🎉 You just made your first pull request! Thank you and hopefully we deal with this soon'
